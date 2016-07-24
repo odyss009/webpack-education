@@ -1,5 +1,7 @@
+var $ = require('jquery')
+
 var moduleA = require('./moduleA')
 
-var mainEl = document.getElementById('main')
+var $main = $('#main')
 
-mainEl.innerHTML = moduleA
+$main.html(moduleA)
