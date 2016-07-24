@@ -1,7 +1,7 @@
-var $ = require('jquery')
+import $ from 'jquery'
 
-var moduleA = require('./moduleA')
+import moduleA from './moduleA'
 
-var $main = $('#main')
+const $main = $('#main')
 
 $main.html(moduleA)
